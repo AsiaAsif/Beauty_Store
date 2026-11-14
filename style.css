@@ -1,0 +1,133 @@
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #fff5f7;
+            color: black;
+        }
+
+        header {
+            background-color: #e8a0b5;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        header p {
+            color: white;
+        }
+
+        nav {
+            background-color: #8e4a62;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #8e4a62;
+        }
+
+        h3 {
+            color: #c05a78;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            border: 1px solid #e8a0b5;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        th {
+            background-color: #e8a0b5;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        input, textarea {
+            padding: 7px;
+        }
+
+        input[type="submit"] {
+            background-color: #8e4a62;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #status {
+            font-weight: bold;
+        }
+
+        #message {
+            color: #8e4a62;
+            font-weight: bold;
+        }
+
+        #discount-message {
+            color: green;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #8e4a62;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+         @media(max-width:600px){
+           body{
+             margin :10px; 
+               }
+           nav a{display : block;
+             margin: 8px 0; 
+              }
+            table{
+                font size:14px;}
+           form{
+            max_width:100%;
+           }
+          } 
+         
+             
+    </style>
