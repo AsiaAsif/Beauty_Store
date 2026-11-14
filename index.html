@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Beauty Care</title>
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+
+
+<body>
+
+
+    <header>
+
+        <h1>Beauty Care</h1>
+
+
+        <p id="status"></p>
+
+
+        <button id="theme-button">
+            Toggle Light/Dark Mode
+        </button>
+
+    </header>
+
+
+    <nav>
+
+        <a href="#home">Home</a> |
+        <a href="#products">Products</a> |
+        <a href="#tips">Beauty Tips</a> |
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <main>
+
+        <section id="home">
+
+            <h2>Welcome to Beauty Care</h2>
+
+            <p>
+                Welcome to my simple beauty page.
+                Here you can find some basic beauty products and tips.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500"
+                alt="Beauty products"
+                width="400">
+
+        </section>
+
+
+        <section id="products">
+
+            <h2>Our Beauty Products</h2>
+
+            <article>
+
+                <h3>About Our Products</h3>
+
+                <p>
+                    We provide simple beauty products for everyday care.
+                </p>
+
+                <p id="extra-text" style="display:none;">
+
+                    Our products include face wash,
+                    moisturizer and lip balm.
+                    These products can be selected
+                    from our product list.
+
+                </p>
+
+                <button id="read-more">
+                    Read More
+                </button>
+
+            </article>
+
+
+            <h3>Filter Products</h3>
+
+            <button class="filter-button" data-category="all">
+                All
+            </button>
+
+            <button class="filter-button" data-category="face">
+                Face Care
+            </button>
+
+            <button class="filter-button" data-category="lip">
+                Lip Care
+            </button>
+
+
+            <h2>Product Price List</h2>
+
+            <table id="product-table">
+
+                <tr>
+
+                    <th>Product</th>
+                    <th>Price</th>
+
+                </tr>
+
+
+                <tr class="product-row" data-category="face">
+
+                    <td>Face Wash</td>
+                    <td>Rs. 800</td>
+
+                </tr>
+
+
+                <tr class="product-row" data-category="face">
+
+                    <td>Moisturizer</td>
+                    <td>Rs. 1200</td>
+
+                </tr>
+
+
+                <tr class="product-row" data-category="lip">
+
+                    <td>Lip Balm</td>
+                    <td>Rs. 500</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section>
+
+            <h2>Select Products</h2>
+
+            <p>
+                Select products to calculate total price:
+            </p>
+
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    class="product-check"
+                    value="800">
+
+                Face Wash - Rs. 800
+
+            </label>
+
+
+            <br><br>
+
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    class="product-check"
+                    value="1200">
+
+                Moisturizer - Rs. 1200
+
+            </label>
+
+
+            <br><br>
+
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    class="product-check"
+                    value="500">
+
+                Lip Balm - Rs. 500
+
+            </label>
+
+
+            <p id="total">
+                Total: Rs. 0
+            </p>
+
+        </section>
+
+
+        <section id="tips">
+
+            <h2>Basic Beauty Tips</h2>
+
+            <ol type="A">
+
+                <li>
+                    Wash your face regularly.
+                </li>
+
+                <li>
+                    Drink enough water.
+                </li>
+
+                <li>
+                    Use moisturizer daily.
+                </li>
+
+            </ol>
+
+
+            <h3>Useful Links</h3>
+
+            <a href="https://www.google.com" target="_blank">
+                Google
+            </a>
+
+            <br>
+
+            <a href="https://www.youtube.com" target="_blank">
+                YouTube
+            </a>
+
+        </section>
+
+
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+
+            <form id="contact-form">
+
+
+                <label>
+                    Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    name="name">
+
+                <br><br>
+
+                <label>
+                    Email:
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email">
+
+                <br><br>
+
+                <label>
+                    Birth Year:
+                </label>
+
+                <input
+                    type="text"
+                    id="birth-year">
+
+                <br><br>
+
+                <label>
+                    Choose your skin type:
+                </label>
+
+                <br>
+
+
+                <input
+                    type="radio"
+                    name="skin"
+                    value="dry">
+
+                <label>
+                    Dry
+                </label>
+
+
+                <input
+                    type="radio"
+                    name="skin"
+                    value="oily">
+
+                <label>
+                    Oily
+                </label>
+
+
+                <input
+                    type="radio"
+                    name="skin"
+                    value="normal">
+
+                <label>
+                    Normal
+                </label>
+
+
+                <br><br>
+
+                <label>
+                    What are you interested in?
+                </label>
+
+                <br>
+
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="facewash">
+
+                <label>
+                    Face Wash
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="moisturizer">
+
+                <label>
+                    Moisturizer
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="lipbalm">
+
+                <label>
+                    Lip Balm
+                </label>
+
+
+                <br><br>
+
+                <label>
+                    Special Requests:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="special-notes"
+                    rows="4"
+                    cols="30"
+                    maxlength="100"></textarea>
+
+
+                <p id="counter">
+                    100 characters remaining
+                </p>
+
+
+                <br>
+
+                <label>
+                    Message:
+                </label>
+
+                <br>
+
+                <textarea
+                    rows="4"
+                    cols="30"></textarea>
+
+
+                <br><br>
+
+
+                <input
+                    type="submit"
+                    value="Submit">
+
+
+            </form>
+
+            <p id="message"></p>
+
+            <p id="discount-message"></p>
+
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        Beauty Care © 2026
+
+    </footer>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
